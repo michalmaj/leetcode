@@ -1,0 +1,11 @@
+# Compilation and build
+*.o
+*.out
+*.exe
+
+# VSCode
+.vscode/
+
+# System
+.DS_Store
+Thumbs.db
