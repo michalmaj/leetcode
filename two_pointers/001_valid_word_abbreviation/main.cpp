@@ -68,7 +68,7 @@ bool ValidWordAbbreviation(const std::string& word, const std::string& abbr) {
             // Convert characters to integer
             int num{0};
             // As long as there j points to the number collect those values
-            while (std::isdigit(abbr[j])) {
+            while (j < abbr.size() && std::isdigit(abbr[j])) {
                 num = num * 10 + (abbr[j] - '0');
                 ++j;
             }
